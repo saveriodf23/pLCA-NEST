@@ -1,0 +1,12 @@
+PROJECT_NAME           = "plca_nest"
+EI_VERSION             = "3.11"
+EI_MODEL               = "cutoff"
+PREMISE_SOURCE_DB      = "ecoinvent-3.11-cutoff"
+PREMISE_SOURCE_VERSION = "3.11"
+PREMISE_MODEL          = "remind"
+PREMISE_PATHWAY        = "SSP2-PkBudg1000"
+PREMISE_YEAR           = 2030
+EI_BACKGROUND          = "ei_cutoff_3.11_remind_SSP2-PkBudg1000_2030 YYYY-MM-DD"   # replace with the name of the premise database in your project (it ends with its build date)
+BIO_BACKGROUND         = "ecoinvent-3.11-biosphere"
+DATA_INPUT             = "DataInput_S14.xlsm"
+SCENARIO_DB_NAME       = "S14"

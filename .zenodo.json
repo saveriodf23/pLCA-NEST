@@ -1,0 +1,47 @@
+{
+  "title": "pLCA-NEST - prospective Life Cycle Assessment Neighbourhood Energy system Selection Tool",
+  "version": "2.0",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "apache-2.0",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "De Franceschi, Saverio",
+      "affiliation": "Centro Studi Qualità e Ambiente (CESQA), Università degli Studi di Padova",
+      "orcid": "0009-0005-1193-4225"
+    },
+    {
+      "name": "Manzardo, Alessandro",
+      "affiliation": "Centro Studi Qualità e Ambiente (CESQA), Università degli Studi di Padova",
+      "orcid": "0000-0003-0245-6944"
+    }
+  ],
+  "description": "<p>pLCA-NEST is an open-source Python tool that couples a prospective life cycle assessment (pLCA) of the final energy use of urban building stocks, assessed building by building, with a multiple criteria decision analysis (MCDA) ranking of alternative scenarios. The ecoinvent background database is regenerated with premise from integrated assessment model (IAM) scenarios, such as those of REMIND, for a reference year chosen by the user, and the calculations are performed with brightway. Fifteen EN 15804+A2 impact categories, characterised with the Environmental Footprint (EF) 3.1 impact assessment methods, are reported, eleven of which enter the ranking as criteria. The ranking combines objective weights from the modified indifference threshold-based attribute ratio analysis (m-ITARA) and subjective weights from a trigonometric fuzzy Ordinal Priority Approach (OPA) through an evidence-weighted convex synthesis (EWCS), and orders the scenarios with the fuzzy Bonferroni CoCoSo method.</p><p>In its LCA part, pLCA-NEST is based on the structure of the LCA4DHC tool (Autelitano and Famiglietti, 2026), developed by the Politecnico di Milano unit of NEST Task 8.5.2, adapted to prospective LCA, to a different object (each building of an urban stock rather than a district heating and cooling network) and to different functional units.</p><p><strong>Aims of the tool</strong></p><p>pLCA-NEST can be used to:</p><ul><li>evaluate the potential environmental impacts of the final energy use for heating, cooling and appliances of each building of an urban stock, at a given point in the future, from a life cycle perspective;</li><li>rank alternative scenarios according to the minimization of these potential environmental impacts.</li></ul><p>Because it is built on the core of the LCA4DHC computational structure, it is also able to:</p><ul><li>ensure compliance with the requirements of the EPBD (Energy Performance of Buildings Directive, version 4);</li><li>support standardized and automated LCA calculations according to EN 15804+A2 and EN 50693;</li><li>provide assessments per technology and per life cycle module, from module A to module D;</li><li>provide a modular, transparent and reproducible computational framework.</li></ul><p><strong>Version 2.0</strong></p><p>Version 2.0 restructures the original Jupyter notebooks into a modular Python package. Energy systems and life cycle modules are defined as data in a registry, the input workbook is validated on reading, and scenarios can be run unattended.</p><p><strong>Documentation</strong></p><p>The pLCA-NEST User Manual v2.0, in the repository, describes the structure, inputs, workflow and results of the tool, which requires an ecoinvent licence (built on version 3.11, cut-off), a premise decryption key and Python 3.12. Results are potential impacts, conditional on the scenario and background assumptions, and should be reviewed independently before any regulatory, policy or decision-making use.</p>",
+  "notes": "This tool was funded by the National Recovery and Resilience Plan (NRRP), Mission 4 Component 2 Investment 1.3, Call for tender No. 1561 of 11.10.2022 of Ministero dell’Università e della Ricerca (MUR), funded by the European Union, NextGenerationEU, project code PE0000021, Concession Decree No. 1561 of 11.10.2022 adopted by Ministero dell’Università e della Ricerca (MUR), CUP D43C2200309001, according to attachment E of Decree No. 1561/2022, project title “Network 4 Energy Sustainable Transition – NEST”.",
+  "keywords": [
+    "prospective life cycle assessment",
+    "LCA",
+    "urban energy systems",
+    "building stock",
+    "neighbourhood",
+    "MCDA",
+    "multiple criteria decision analysis",
+    "fuzzy OPA",
+    "CoCoSo",
+    "premise",
+    "brightway"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.18302949",
+      "relation": "isDerivedFrom",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://doi.org/10.1109/EEEIC/ICPSEurope61470.2024.10751034",
+      "relation": "references",
+      "resource_type": "publication-conferencepaper"
+    }
+  ]
+}

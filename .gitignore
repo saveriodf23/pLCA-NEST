@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Editors
+.vscode/
+.idea/
+
+# Your own inputs, placed next to the notebooks
+/DataInput_*.xlsm
+/scenario_summary.xlsx
+/batch_runs_inputs/
+
+# Outputs of a run, written next to the notebooks
+/*_LCA_results*.xlsx
+/*_per_system.pkl
+/batch_run_*.json
+/integrated_mcda_results*.xlsx

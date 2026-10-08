@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "pLCA-NEST - prospective Life Cycle Assessment Neighbourhood Energy system Selection Tool"
+version: "2.0"
+date-released: "2026-10-07"
+license: Apache-2.0
+repository-code: "https://github.com/saveriodf23/pLCA-NEST"
+authors:
+  - family-names: "De Franceschi"
+    given-names: "Saverio"
+    orcid: "https://orcid.org/0009-0005-1193-4225"
+    affiliation: "Centro Studi Qualità e Ambiente (CESQA), Università degli Studi di Padova"
+  - family-names: "Manzardo"
+    given-names: "Alessandro"
+    orcid: "https://orcid.org/0000-0003-0245-6944"
+    affiliation: "Centro Studi Qualità e Ambiente (CESQA), Università degli Studi di Padova"
+abstract: >-
+  pLCA-NEST is an open-source Python tool that couples a prospective life cycle
+  assessment (pLCA) of the final energy use of urban building stocks, assessed
+  building by building, with a multiple criteria decision analysis (MCDA)
+  ranking of alternative scenarios. The ecoinvent background database is
+  regenerated with premise from integrated assessment model (IAM) scenarios,
+  such as those of REMIND, for a reference year chosen by the user, and the
+  calculations are performed with brightway. Fifteen EN 15804+A2 impact
+  categories, characterised with the Environmental Footprint (EF) 3.1 impact
+  assessment methods, are reported, eleven of which enter the ranking as
+  criteria. The ranking combines objective weights from the modified
+  indifference threshold-based attribute ratio analysis (m-ITARA) and subjective
+  weights from a trigonometric fuzzy Ordinal Priority Approach (OPA) through an
+  evidence-weighted convex synthesis (EWCS), and orders the scenarios with the
+  fuzzy Bonferroni CoCoSo method. In its LCA part, pLCA-NEST is based on the
+  structure of the LCA4DHC tool (Autelitano and Famiglietti, 2026), developed by
+  the Politecnico di Milano unit of NEST Task 8.5.2, adapted to prospective LCA,
+  to a different object (each building of an urban stock rather than a district
+  heating and cooling network) and to different functional units.
+keywords:
+  - prospective life cycle assessment
+  - LCA
+  - urban energy systems
+  - building stock
+  - neighbourhood
+  - MCDA
+  - multiple criteria decision analysis
+  - fuzzy OPA
+  - CoCoSo
+  - premise
+  - brightway
