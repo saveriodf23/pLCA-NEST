@@ -3,9 +3,17 @@ message: "If you use this software, please cite it as below."
 type: software
 title: "pLCA-NEST - prospective Life Cycle Assessment Neighbourhood Energy system Selection Tool"
 version: "2.0"
-date-released: "2026-10-07"
+date-released: "2026-10-09"
+doi: "10.5281/zenodo.23264647"
 license: Apache-2.0
 repository-code: "https://github.com/saveriodf23/pLCA-NEST"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23264646"
+    description: "Concept DOI: all versions of pLCA-NEST"
+  - type: doi
+    value: "10.5281/zenodo.23264647"
+    description: "Version 2.0"
 authors:
   - family-names: "De Franceschi"
     given-names: "Saverio"

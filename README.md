@@ -231,9 +231,11 @@ If you use this tool in academic work, please cite it. GitHub's **"Cite this
 repository"** button (from `CITATION.cff`) gives the reference in APA and BibTeX:
 
 > De Franceschi, S. and Manzardo, A. (2026). *pLCA-NEST - prospective Life Cycle
-> Assessment Neighbourhood Energy system Selection Tool* (Version 2.0).
+> Assessment Neighbourhood Energy system Selection Tool* (Version 2.0). Zenodo.
+> https://doi.org/10.5281/zenodo.23264647
 
-<!-- After the v2.0 release: add the Zenodo DOI link here and in CITATION.cff. -->
+To cite all versions, or always the latest one, use
+https://doi.org/10.5281/zenodo.23264646.
 
 ---
 
