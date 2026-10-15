@@ -6,8 +6,8 @@ scenarios of urban energy systems (heating, cooling, appliances) and their ranki
 with the m-ITARA-trigonometric t-conorm and t-norm fuzzy OPA-CoCoSo-Bonferroni
 method.
 
-**Version 2.0.** See [CHANGELOG.md](CHANGELOG.md) for what changed since v1.0;
-results of the two versions are not comparable.
+**Version 2.0.1.** See [CHANGELOG.md](CHANGELOG.md) for what changed since v1.0;
+results of v1.0 and v2.x are not comparable.
 
 ---
 
@@ -50,6 +50,7 @@ an Integrated Assessment Model scenario, e.g. REMIND SSP2-PkBudg1000 in 2030.
 | `blank_inputs/` | Empty templates: `DataInput_blank.xlsm` (one scenario) and `scenario_summary_blank.xlsx` (the MCDA input). |
 | `Examples/` | Worked examples: one scenario (`S14_2030/`) and a ranking of five (`MCDA_2030_SSP2-1000/`). |
 | `pLCA-NEST User Manual.pdf` | The user manual. |
+| `NOTICE` | Attribution of the files derived from LCA4DHC. |
 
 ---
 
@@ -187,6 +188,9 @@ the notebook.
 
 ## Third-party software
 
+- **LCA4DHC** - the LCA structure, energy-system inventories and input
+  workbooks that pLCA-NEST is derived from (Autelitano and Famiglietti, 2026;
+  Apache License 2.0). See [NOTICE](NOTICE).
 - **Brightway 2.5** - LCA calculation framework (Mutel, 2017).
 - **premise** - prospective background databases (Sacchi et al., 2022).
 - **ecoinvent v3.11 cut-off** - background processes. ⚠️ A valid ecoinvent
@@ -231,8 +235,8 @@ If you use this tool in academic work, please cite it. GitHub's **"Cite this
 repository"** button (from `CITATION.cff`) gives the reference in APA and BibTeX:
 
 > De Franceschi, S. and Manzardo, A. (2026). *pLCA-NEST - prospective Life Cycle
-> Assessment Neighbourhood Energy system Selection Tool* (Version 2.0). Zenodo.
-> https://doi.org/10.5281/zenodo.23264647
+> Assessment Neighbourhood Energy system Selection Tool* (Version 2.0.1). Zenodo.
+> https://doi.org/10.5281/zenodo.23264646
 
 To cite all versions, or always the latest one, use
 https://doi.org/10.5281/zenodo.23264646.
@@ -243,6 +247,15 @@ https://doi.org/10.5281/zenodo.23264646.
 
 Copyright 2026 Saverio De Franceschi and Alessandro Manzardo.
 Licensed under the Apache License, Version 2.0 - see [LICENSE](LICENSE).
+
+### Licence and attribution
+
+Portions of this tool are derived from LCA4DHC – Copyright 2026 Kevin
+Autelitano and Jacopo Famiglietti, licensed under the Apache License 2.0
+(https://github.com/KevinAutelitano/LCA4DHC – Citation:
+https://doi.org/10.5281/zenodo.18302949). Each derived file starts with a note
+saying what it was derived from and how it was modified; the full list is in
+[NOTICE](NOTICE).
 
 ---
 

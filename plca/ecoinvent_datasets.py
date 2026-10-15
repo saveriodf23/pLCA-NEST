@@ -1,3 +1,10 @@
+# Derived from LCA4DHC (ImportEcoinventDatabase.ipynb) - Copyright 2026 Kevin
+# Autelitano and Jacopo Famiglietti, licensed under the Apache License 2.0
+# (https://github.com/KevinAutelitano/LCA4DHC - Citation:
+# https://doi.org/10.5281/zenodo.18302949).
+# Modified for pLCA-NEST: ported from a Jupyter notebook to a Python module;
+# revised.
+
 """
 ecoinvent_datasets.py - the background datasets every exchange points at.
 
@@ -16,9 +23,6 @@ Notes on specific lookups:
     flow.
   * EF_Airfun is a desktop-computer power-supply fan; only the electric heat
     pump's fan uses it (see the note at the lookup).
-  * EF_RefrigerantGas fetches ABS copolymer while its C3 and C4 rows treat the
-    component as R134a, as in the source LCI; open question to the inventory
-    authors (see the note at the lookup).
   * EF_Brass is assigned twice, identically. EF_Chromium and EF_Ethyne are
     commented out (no matching flow).
 """

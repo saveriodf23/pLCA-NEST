@@ -1,0 +1,111 @@
+pLCA-NEST
+Copyright 2026 Saverio De Franceschi and Alessandro Manzardo
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Portions of this tool are derived from LCA4DHC – Copyright 2026 Kevin Autelitano and Jacopo Famiglietti, licensed under the Apache License 2.0 (https://github.com/KevinAutelitano/LCA4DHC – Citation: https://doi.org/10.5281/zenodo.18302949).
+
+The following files are derived from LCA4DHC; the changes made for
+pLCA-NEST are described under each:
+
+- RUN_pLCA.ipynb, from RUN.ipynb:
+  Restructured as a driver notebook that calls the plca package.
+- energy_systems/absorption_chiller.py, from Energy_systems/CoolingAbsorptionChiller.ipynb:
+  Ported from a Jupyter notebook to a Python module, reviewed and corrected
+  (see CHANGELOG.md).
+- energy_systems/auxiliaries.py, from Energy_systems/Auxiliaries.ipynb:
+  Ported from a Jupyter notebook to a Python module, reviewed and corrected
+  (see CHANGELOG.md).
+- energy_systems/biomass_boiler.py, from Energy_systems/BiomassBoiler.ipynb:
+  Ported from a Jupyter notebook to a Python module, reviewed and corrected
+  (see CHANGELOG.md).
+- energy_systems/boiler.py, from Energy_systems/Boiler.ipynb:
+  Ported from a Jupyter notebook to a Python module, reviewed and corrected
+  (see CHANGELOG.md).
+- energy_systems/chp_combined_cycle.py, from Energy_systems/CombinedHeatPower_CombinedCycle.ipynb:
+  Ported from a Jupyter notebook to a Python module, reviewed and corrected
+  (see CHANGELOG.md).
+- energy_systems/chp_orc.py, from Energy_systems/CombinedHeatPower_OrganicRankineCycle.ipynb:
+  Ported from a Jupyter notebook to a Python module, reviewed and corrected
+  (see CHANGELOG.md).
+- energy_systems/chp_rice.py, from Energy_systems/CombinedHeatPower_InternalCombustionEngine.ipynb:
+  Ported from a Jupyter notebook to a Python module, reviewed and corrected
+  (see CHANGELOG.md).
+- energy_systems/chp_turbogas.py, from Energy_systems/CombinedHeatPower_Turbogas.ipynb:
+  Ported from a Jupyter notebook to a Python module, reviewed and corrected
+  (see CHANGELOG.md).
+- energy_systems/chp_waste_to_energy.py, from Energy_systems/CombinedHeatPower_WasteToEnergy.ipynb:
+  Ported from a Jupyter notebook to a Python module, reviewed and corrected
+  (see CHANGELOG.md).
+- energy_systems/compression_chiller.py, from Energy_systems/CoolingCompressionChiller.ipynb:
+  Ported from a Jupyter notebook to a Python module, reviewed and corrected
+  (see CHANGELOG.md).
+- energy_systems/concrete_thermal_storage.py, from Energy_systems/ThermalConcreteStorage.ipynb:
+  Ported from a Jupyter notebook to a Python module, reviewed and corrected
+  (see CHANGELOG.md).
+- energy_systems/cooling_tower.py, from Energy_systems/CoolingEvaporativeTower.ipynb:
+  Ported from a Jupyter notebook to a Python module, reviewed and corrected
+  (see CHANGELOG.md).
+- energy_systems/dry_cooler.py, from Energy_systems/CoolingDryCooler.ipynb:
+  Ported from a Jupyter notebook to a Python module, reviewed and corrected
+  (see CHANGELOG.md).
+- energy_systems/electric_heat_pump.py, from Energy_systems/ElectricHeatPump.ipynb:
+  Ported from a Jupyter notebook to a Python module, reviewed and corrected
+  (see CHANGELOG.md).
+- energy_systems/fuel_oil_boiler.py, from Energy_systems/FuelOilBoiler.ipynb:
+  Ported from a Jupyter notebook to a Python module, reviewed and corrected
+  (see CHANGELOG.md).
+- energy_systems/gas_absorption_heat_pump.py, from Energy_systems/GasAbsorptionHeatPump.ipynb:
+  Ported from a Jupyter notebook to a Python module, reviewed and corrected
+  (see CHANGELOG.md).
+- energy_systems/gas_engine_heat_pump.py, from Energy_systems/GasEngineHeatPump.ipynb:
+  Ported from a Jupyter notebook to a Python module, reviewed and corrected
+  (see CHANGELOG.md).
+- energy_systems/geothermal.py, from Energy_systems/GeothermalPlant.ipynb:
+  Ported from a Jupyter notebook to a Python module, reviewed and corrected
+  (see CHANGELOG.md).
+- energy_systems/heat_recovery.py, from Energy_systems/HeatRecovery.ipynb:
+  Ported from a Jupyter notebook to a Python module, reviewed and corrected
+  (see CHANGELOG.md).
+- energy_systems/solar_thermal.py, from Energy_systems/SolarThermal.ipynb:
+  Ported from a Jupyter notebook to a Python module, reviewed and corrected
+  (see CHANGELOG.md).
+- energy_systems/steel_thermal_storage.py, from Energy_systems/ThermalSteelStorage.ipynb:
+  Ported from a Jupyter notebook to a Python module, reviewed and corrected
+  (see CHANGELOG.md).
+- plca/config.py, from RUN.ipynb:
+  Ported from a Jupyter notebook to a Python module; generalised into a
+  registry of energy systems and life cycle modules from information spread
+  across the notebook.
+- plca/ecoinvent_datasets.py, from ImportEcoinventDatabase.ipynb:
+  Ported from a Jupyter notebook to a Python module; revised.
+- plca/eol.py, from Libraries.ipynb:
+  Ported from a Jupyter notebook to a Python module; input validation added.
+- plca/exchange_configs.py, from the exchange lists in RUN.ipynb:
+  Ported from a Jupyter notebook to a Python module; generalised into one
+  table from information spread across the notebook, and revised (see
+  CHANGELOG.md).
+- plca/impact_methods.py, from ImportEcoinventDatabase.ipynb:
+  Ported from a Jupyter notebook to a Python module; input validation added;
+  revised.
+- plca/inventories_calc.py, from RUN.ipynb (running the energy-system notebooks):
+  Ported from a Jupyter notebook to a Python module; input validation added;
+  rewritten to compute every energy system's inventory in one call.
+- plca/lca_model.py, from RUN.ipynb:
+  Ported from a Jupyter notebook to a Python module; input validation added;
+  thoroughly modified: activity building and the MultiLCA calculation adapted
+  to a building-by-building object and a functional unit per square metre of
+  floor area.
+- plca/results_export.py, from RUN.ipynb:
+  Ported from a Jupyter notebook to a Python module; substantially rewritten;
+  only the general approach to exporting results is retained.
+- plca/scenario.py, from Libraries.ipynb:
+  Ported from a Jupyter notebook to a Python module; input validation added.
+- blank_inputs/DataInput_blank.xlsm, from DataInput.xlsm:
+  Modified: adapted to the pLCA-NEST input (buildings of an urban stock).
+- Examples/S14_2030/DataInput_S14.xlsm, from DataInput.xlsm:
+  Modified: adapted to the pLCA-NEST input and filled in for scenario S14.
+- EndOfLifeInputParameters.xlsx, from EndOfLifeInputParameters.xlsx:
+  Unmodified copy.
+
+RUN_pLCA.ipynb also keeps LCA4DHC's original Apache License header.
+LCA4DHC does not ship a NOTICE file.

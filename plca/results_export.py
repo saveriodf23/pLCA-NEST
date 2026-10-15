@@ -1,3 +1,11 @@
+# Derived from LCA4DHC (RUN.ipynb) - Copyright 2026 Kevin Autelitano and Jacopo
+# Famiglietti, licensed under the Apache License 2.0
+# (https://github.com/KevinAutelitano/LCA4DHC - Citation:
+# https://doi.org/10.5281/zenodo.18302949).
+# Modified for pLCA-NEST: ported from a Jupyter notebook to a Python module;
+# substantially rewritten; only the general approach to exporting results is
+# retained.
+
 """
 results_export.py - write the five styled Excel workbooks.
 

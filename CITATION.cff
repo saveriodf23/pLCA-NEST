@@ -2,9 +2,9 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 type: software
 title: "pLCA-NEST - prospective Life Cycle Assessment Neighbourhood Energy system Selection Tool"
-version: "2.0"
-date-released: "2026-10-09"
-doi: "10.5281/zenodo.23264647"
+version: "2.0.1"
+date-released: "2026-10-16"
+doi: "10.5281/zenodo.23264646"
 license: Apache-2.0
 repository-code: "https://github.com/saveriodf23/pLCA-NEST"
 identifiers:
@@ -54,3 +54,15 @@ keywords:
   - CoCoSo
   - premise
   - brightway
+references:
+  - type: software
+    title: "LCA4DHC - A Life Cycle Assessment data-driven tool for the evaluation of District Heating and Cooling networks"
+    authors:
+      - family-names: "Autelitano"
+        given-names: "Kevin"
+      - family-names: "Famiglietti"
+        given-names: "Jacopo"
+    year: 2026
+    license: Apache-2.0
+    doi: "10.5281/zenodo.18302949"
+    repository-code: "https://github.com/KevinAutelitano/LCA4DHC"

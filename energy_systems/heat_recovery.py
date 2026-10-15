@@ -1,3 +1,10 @@
+# Derived from LCA4DHC (Energy_systems/HeatRecovery.ipynb) - Copyright 2026
+# Kevin Autelitano and Jacopo Famiglietti, licensed under the Apache License
+# 2.0 (https://github.com/KevinAutelitano/LCA4DHC - Citation:
+# https://doi.org/10.5281/zenodo.18302949).
+# Modified for pLCA-NEST: ported from a Jupyter notebook to a Python module,
+# reviewed and corrected (see CHANGELOG.md).
+
 """
 heat_recovery.py - life-cycle inventory of a heat recovery unit.
 

@@ -1,3 +1,11 @@
+# Derived from LCA4DHC (RUN.ipynb) - Copyright 2026 Kevin Autelitano and Jacopo
+# Famiglietti, licensed under the Apache License 2.0
+# (https://github.com/KevinAutelitano/LCA4DHC - Citation:
+# https://doi.org/10.5281/zenodo.18302949).
+# Modified for pLCA-NEST: ported from a Jupyter notebook to a Python module;
+# generalised into a registry of energy systems and life cycle modules from
+# information spread across the notebook.
+
 """
 config.py - the registry: what exists in a pLCA-NEST run.
 

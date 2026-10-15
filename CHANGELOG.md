@@ -1,5 +1,18 @@
 # Changelog
 
+## v2.0.1 - 2026-10
+
+Attribution release; no change to the code or to the results.
+
+- New `NOTICE` file stating that portions of pLCA-NEST are derived from LCA4DHC
+  (Autelitano and Famiglietti, 2026, Apache License 2.0,
+  https://doi.org/10.5281/zenodo.18302949), with the list of derived files.
+- Each derived module, and `RUN_pLCA.ipynb`, now starts with a note naming its
+  LCA4DHC source and how it was modified; `RUN_pLCA.ipynb` also carries
+  LCA4DHC's original licence header.
+- README: licence and attribution paragraph; LCA4DHC listed under third-party
+  software. `CITATION.cff` cites LCA4DHC as a reference.
+
 ## v2.0 - 2026-10
 
 v2.0 is a rewrite of the v1.0 notebooks into a Python package, followed by a

@@ -1,3 +1,10 @@
+# Derived from LCA4DHC (ImportEcoinventDatabase.ipynb) - Copyright 2026 Kevin
+# Autelitano and Jacopo Famiglietti, licensed under the Apache License 2.0
+# (https://github.com/KevinAutelitano/LCA4DHC - Citation:
+# https://doi.org/10.5281/zenodo.18302949).
+# Modified for pLCA-NEST: ported from a Jupyter notebook to a Python module;
+# input validation added; revised.
+
 """
 impact_methods.py - the 15 EN 15804+A2 impact categories the LCA is run against.
 
