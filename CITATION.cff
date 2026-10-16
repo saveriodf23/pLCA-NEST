@@ -4,13 +4,16 @@ type: software
 title: "pLCA-NEST - prospective Life Cycle Assessment Neighbourhood Energy system Selection Tool"
 version: "2.0.1"
 date-released: "2026-10-16"
-doi: "10.5281/zenodo.23264646"
+doi: "10.5281/zenodo.23417592"
 license: Apache-2.0
 repository-code: "https://github.com/saveriodf23/pLCA-NEST"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23264646"
     description: "Concept DOI: all versions of pLCA-NEST"
+  - type: doi
+    value: "10.5281/zenodo.23417592"
+    description: "Version 2.0.1"
   - type: doi
     value: "10.5281/zenodo.23264647"
     description: "Version 2.0"
